@@ -47,6 +47,10 @@
     padding: 20px;
     display: flex;
 }
+.siga{   
+    display: flex;
+    justify-content: center;
+}
 .post-img img{
 
     width:300px;
