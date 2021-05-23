@@ -181,9 +181,15 @@
  
 }
  .contato-img-box img {
-    width: 100%;
+    width: 100px;
     -webkit-filter:grayscale(100%);
 
+ }
+ @media screen and (min-width:500px) {
+     .contato-img-box img{
+         width: 200px;
+     }
+     
  }
   
  .img-whats img:hover{
