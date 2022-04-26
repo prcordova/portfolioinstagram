@@ -65,15 +65,15 @@
     align-content: center;
     justify-content: center;
 }
-.siga img{
+/* .siga img{
     width: 100%;
-}
+} */
  
-@media screen and (min-width:500px){
+/* @media screen and (min-width:500px){
     .siga img{
         width:50%
     }
-}
+} */
  /**************************Container portfolio**************************/
  .container-portfolio {
     width: 100%;
@@ -105,19 +105,16 @@
     color: rgb(255, 255, 255);
     padding: 20px;
 }
-.contato img{
-    width:50%;
-    margin-right:0;
-
-}
+ 
 
 .contato a:hover{
     color: rgb(145, 143, 141);
 }
 /**************************Sobre**************************/
-.sobre{
+.sobre, .contato, .siga{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .sobre-p{
     display: flex;
@@ -127,12 +124,19 @@
     font-size: 16px;
     color: #fff;
 }
-.sobre img{
-    width:50%;
-    margin-right:0;
+.sobre h1,.contato h1, .siga h1{
+    width:100%;
+    display: inline;
+    font-size: 4rem;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #fff;
 
 }
-
+.sobre h1:hover, .contato h1:hover, .siga h1:hover{
+    color: aquamarine;
+    text-shadow: 2px 2px 4px gray;
+}
 /**************************Footer**************************/
 .footer{
      
